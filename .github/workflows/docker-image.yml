@@ -23,5 +23,5 @@ jobs:
         echo $PASS
         docker build . --file Dockerfile --tag r3d-hood/github:latest
         docker login -u $USER -p $PASS
-        
+         
         docker push r3dhood/github:latest
